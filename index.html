@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária De Francelos - Pet Care in Portugal</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{font-family:Arial,sans-serif;color:#333;}
+
+        header{
+            background:linear-gradient(135deg,#4a90e2,#7b68ee);
+            color:white;
+            padding:1rem 0;
+            position:fixed;
+            width:100%;
+            top:0;
+        }
+
+        nav{
+            max-width:1200px;
+            margin:auto;
+            display:flex;
+            justify-content:space-between;
+            padding:0 2rem;
+        }
+
+        .logo{font-size:1.5rem;font-weight:bold;}
+        .nav-links{display:flex;gap:20px;list-style:none;}
+        .nav-links a{color:white;text-decoration:none;}
+
+        .hero{
+            height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-align:center;
+            color:white;
+            margin-top:60px;
+            background:linear-gradient(#4a90e2,#7b68ee);
+        }
+
+        .cta-button{
+            background:#ff6b6b;
+            padding:10px 20px;
+            border-radius:30px;
+            color:white;
+            text-decoration:none;
+        }
+
+        section{padding:60px 20px;}
+        .container{max-width:1100px;margin:auto;}
+
+        .services-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .service-card{
+            padding:20px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+            border-radius:10px;
+            text-align:center;
+        }
+
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">🐾 Clínica Veterinária De Francelos</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div>
+        <h1>Professional Care for Your Pets</h1>
+        <p>Trusted veterinary care in Portugal with compassion and experience.</p>
+        <a href="#contact" class="cta-button">Book Appointment</a>
+    </div>
+</section>
+
+<section id="services" class="container">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+
+        <div class="service-card">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Health Checkups</h3>
+            <p>Complete pet health care and diagnosis.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-syringe"></i>
+            <h3>Vaccination</h3>
+            <p>Keep your pets protected with vaccines.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-paw"></i>
+            <h3>Pet Care</h3>
+            <p>Daily care and grooming services.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contact Us</h2>
+
+    <p><strong>Clínica Veterinária De Francelos</strong></p>
+    <p>Av. de Francelos 575, 4405-647 Vila Nova de Gaia, Portugal</p>
+    <p>📞 +351 22 093 0915</p>
+    <p>✉ info@cvfrancelos.pt</p>
+
+    <br>
+
+    <iframe 
+        src="https://maps.google.com/maps?q=Av.%20de%20Francelos%20575%20Portugal&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="100%" height="300" style="border:0;">
+    </iframe>
+</section>
+
+<footer>
+    <p>© 2024 Clínica Veterinária De Francelos</p>
+</footer>
+
+</body>
+</html>
